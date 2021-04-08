@@ -1,3 +1,3 @@
-# Docker Compose Nginx PHP-FPM
+# docker-compose.yml for Rasperry Pi Zero Playground with PHP-FPM and Nginx
 
-[Blog-Post: Dockerisieren Sie Ihre PHP-Anwendung mit Nginx und PHP7-FPM](https://marcit.eu/?p=1867)
+Just run `docker-compose up [--detach]` inside the repo to start the containers.
