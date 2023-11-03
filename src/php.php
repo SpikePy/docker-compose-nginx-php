@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Spikes Pi Zero: PHP</title>
+        <title>Dynamic</title>
     </head>
     <body>
         <h1>PHP</h1>

@@ -1,0 +1,29 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: php-test-content
+  namespace: shop
+data:
+  static.html: |-
+    <html>
+    <head>
+        <title>Spikes Pi Zero: HTML</title>
+    </head>
+    <body>
+        <h1>Static HTML Page</h1>
+        <p>This page contains only plain HTML stuff</p>
+    </body>
+    </html>
+  dynamic.php: |-
+    <html>
+    <head>
+        <title>Dynamic</title>
+    </head>
+    <body>
+        <h1>PHP</h1>
+        <?php
+            echo "<p>Date: " . date('l, F jS, Y') . "</p>";
+        ?>
+    </body>
+    </html>
+
